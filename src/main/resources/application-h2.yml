@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: "jdbc:h2:file:~/Desktop/mydatabase"
+    url: "jdbc:h2:file:~/mydatabase"
     driver-class-name: org.h2.Driver
     username: zgillis
     password:
@@ -13,3 +13,6 @@ spring:
     console:
       path: /h2
       enabled: true
+stocks:
+  api:
+    key: RA3MEL2DG6O9ZJ8T
