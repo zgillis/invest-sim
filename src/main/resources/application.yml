@@ -1,0 +1,19 @@
+spring:
+  data.rest.base-uri: "/api"
+
+  datasource:
+    url: "jdbc:postgresql://192.168.0.111/nexoapi?currentSchema=testing"
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Laptopfoxes57$
+    hikari:
+      driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  jooq:
+    sql-dialect: org.hibernate.dialect.PostgreSQLDialect
