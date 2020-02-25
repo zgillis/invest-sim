@@ -1,15 +1,16 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <title>Good Thymes Virtual Grocery</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" type="text/css" media="all" href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
-    </head>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+    <th:block th:include="header.html"></th:block>
     <body>
-        <h1 th:text="${title}"></h1>
-        <h2>sdlfksjdfljs</h2>
-        <p th:text="${description}" />
-        <p th:text="${currentts}" />
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">A Custom-Tailored Trading Simulation</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+            <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p>
+        </div>
+    </section>
     </body>
 </html>

@@ -1,13 +1,13 @@
 spring:
+  data.rest.base-uri: "/api"
   datasource:
-    url: "jdbc:postgresql://192.168.0.111/postgres"
+    url: "jdbc:postgresql://192.168.0.111/nexoapi?currentSchema=testing"
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: Laptopfoxes57$
-    dbcp2:
-      driver-class-name: org.postgresql.Driver
     hikari:
       driver-class-name: org.postgresql.Driver
+
   jpa:
     show-sql: true
     hibernate:
