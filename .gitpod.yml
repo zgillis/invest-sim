@@ -1,0 +1,4 @@
+image: gitpod/workspace-mysql
+
+tasks:
+  - init: ./mvnw install -DskipTests=false
